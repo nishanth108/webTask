@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+      .fixed {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        border: 2px solid rebeccapurple;
+      }
+      .relative {
+        position: relative;
+      }
+      .dhoni {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: aliceblue;
+        font-size: 1.5rem;
+      }
+
+      .r {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fixed">Fixed Position</div>
+
+    <div class="relative">
+      <img src="image.png" height="340vh" width="600vh" />
+      <span class="dhoni">Ms Dhoni</span>
+      <span class="dhoni" style="top: 320px">Nishanth</span>
+      <span class="dhoni" style="left: 500px">Hari</span>
+      <span class="dhoni" style="left: 500px; top: 320px">Jithu</span>
+
+      <span class="dhoni r" style="top: 160px"><b>Roshan</b></span>
+      <span class="dhoni" style="left: 500px; top: 160px">Sneha</span>
+
+      <!-- Form -->
+      <form action="">
+        <h1>Form</h1>
+        <label for="name"
+          >Name<span>:</span>
+          <input type="text" name="" id="name" />
+        </label>
+        <br />
+        <h1>Choose Cource</h1>
+        <label for="c1"
+          >Java<span>:</span>
+          <input type="radio" name="" id="c1" />
+        </label>
+      </form>
+    </div>
+  </body>
+</html>

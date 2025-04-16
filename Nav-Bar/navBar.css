@@ -1,0 +1,51 @@
+.navClass {
+  background-color: rgba(240, 188, 2, 0.2);
+}
+
+.navClass ul {
+  overflow: auto;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.navClass ul li {
+  list-style: none;
+  float: left;
+  padding: 2rem;
+}
+
+.navClass ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  /* background-color: rgb(155, 119, 203); */
+}
+
+.navClass div {
+  display: inline-block;
+  float: right;
+  padding: 2rem;
+  position: relative;
+}
+
+.navClass div input {
+  padding: 1rem;
+  margin-left: auto;
+  border-radius: 1rem;
+  background-color: transparent;
+  padding-left: 2rem;
+}
+
+.navClass ul li a:hover {
+  background-color: orange;
+  color: white;
+}
+
+.navClass div i {
+  position: absolute;
+  top: 7vh;
+  left: 6vh;
+}
