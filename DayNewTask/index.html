@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <script>
+      function onClick() {
+        const d = new Date();
+        document.getElementsByClassName("demo").innerText = "ggg";
+        console.log(d.getDate());
+        console.log(d.getDay());
+        console.log(d.getFullYear());
+        console.log(d.getMilliseconds());
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="onClick()">Press me</button>
+    <p id="demo"></p>
+  </body>
+</html>
