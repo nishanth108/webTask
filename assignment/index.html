@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <!--<button onvlick="onClick(2,3)">Click me</button>-->
+    <form name="formName" onsubmit="return submitForm()">
+      <div>
+        <lable for="nameId">Name</lable>
+        <span style="color: red">*</span>
+        <span>:</span>
+        <input type="text" id="nameId" name="nameName" required />
+      </div>
+      <br />
+      <div>
+        <label for="numberId">Number</label>
+        <span style="color: #ff0000">*</span>
+        <span>:</span>
+        <input type="number" id="numberId" name="numberName" required />
+      </div>
+      <br />
+      <!-- <div>
+        <label for="emailId">Email</label>
+        <span style="color: #ff0000">*</span>
+        <span>:</span>
+        <input type="email" id="emailId" name="emailName" required />
+      </div>
+      <br />
+      <div>
+        <label for="genderId">Gender</label>
+        <span style="color: #ff0000">*</span>
+        <span>:</span>
+        <input type="gender" id="genderId" name="genderName" required />
+      </div>
+      <br /> -->
+      <div>
+        <label for="ageId">Age</label>
+        <span style="color: #ff0000">*</span>
+        <span>:</span>
+        <input type="age" id="ageId" name="ageInp" required />
+      </div>
+      <br />
+      <div>
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Clear">Clear</button>
+      </div>
+    </form>
+  </body>
+</html>
