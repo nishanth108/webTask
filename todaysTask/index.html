@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <!-- <span class="nameErrorClass">hii</span>
+    <span class="nameErrorClass">as it is</span> -->
+    <!-- <button onclick="onClick()">click</button> -->
+    <form name="formName" onsubmit="return submitForm()">
+      <div>
+        <label for="nameId">Name</label>
+        <span style="color: tomato">*</span>
+        <span>:</span>
+        <input type="text" id="nameId" name="nameName" required />
+        <span style="color: red" id="nameErrorId"></span>
+      </div>
+      <div>
+        <label for="numId">Number</label>
+        <span style="color: tomato">*</span>
+        <span>:</span>
+        <input type="number" id="numId" name="numName" required />
+        <span style="color: red" id="numErrorId"></span>
+      </div>
+      <!-- <div>
+        <label for="ageId">Age</label>
+        <span style="color: tomato;">*</span>
+        <span>:</span>
+        <input type="email" id="ageId" name="ageName" required>
+    </div> -->
+      <!-- <div>
+        <label for="emailId">Email</label>
+        <span style="color: tomato;">*</span>
+        <span>:</span>
+        <input type="email" id="emailId" name="emailName" required>
+    </div> -->
+      <div>
+        <button type="submit" value="submit">Submit</button>
+        <button type="reset" value="reset" onclick="onClick()">Clear</button>
+      </div>
+    </form>
+  </body>
+</html>
